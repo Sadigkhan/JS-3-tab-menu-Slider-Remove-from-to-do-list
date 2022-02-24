@@ -1,0 +1,56 @@
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu div {
+  background-color: skyblue;
+  padding: 5px 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+
+.content {
+  border: 1px solid gray;
+  padding: 20px;
+}
+
+.active {
+  background-color: blue;
+  color: white;
+}
+
+#slider {
+  position: relative;
+}
+
+#slider div {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: rgba(211, 207, 0, 0.9);
+  color: #fff;
+  font-size: 25px;
+  border-radius: 5px;
+  padding: 10px 4px;
+  cursor: pointer;
+}
+
+#slider .prev {
+  left: 20px;
+}
+
+#slider .next {
+  right: 20px;
+}
+
+#slider img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=style.css.map */
